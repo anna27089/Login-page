@@ -1,0 +1,121 @@
+body {
+    background-color: #0E1538;
+    display: flex;
+    justify-content: center;
+}
+    
+
+.title {
+    text-align: center;
+    margin-top: -60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 115, 255);
+}
+
+.box {
+    margin-top: 150px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #0E1538;
+  }
+  
+  .box::before {
+    content: '';
+    position: absolute;
+    inset: -3px;
+    background: linear-gradient(45deg,#00ccff,#0e1538,
+    #0e1538,#d400d4);
+    box-shadow: 0 0 0 20px #070c23;
+    z-index: -1;
+  }
+  
+  .box::after {
+    content: '';
+    position: absolute;
+    inset: -3px;
+    background: linear-gradient(45deg,#00ccff,#0e1538,
+    #0e1538,#d400d4);
+    box-shadow: 0 0 0 20px #070c23;
+    z-index: -1;
+    filter: blur(20px);
+  }
+
+
+input {
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+    background: transparent;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-color: #00ccff74;
+}
+
+#email {
+    margin-top: 50px;
+}
+i {
+    margin-left: -30px;
+    cursor: pointer;
+    color: rgba(167, 165, 165, 0.56);
+}
+
+#password {
+    margin-left: -8.5px;
+}
+
+.login {
+    width: 255px;
+    height: 34px;
+    color: rgba(255, 255, 255, 0.817);
+    background-color: rgba(0, 115, 255, 0.485);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.login:hover {
+    cursor: pointer;
+    transition: 0.4s;
+    background-color: rgb(1, 102, 225);
+}
+
+.text {
+    color: rgb(0, 115, 255);
+    font-size: 12px;
+}
+
+.text:hover {
+    cursor: pointer;
+    text-decoration: underline;  
+}
+
+.signup {
+    width: 255px;
+    height: 34px;
+    color: rgba(255, 255, 255, 0.797);
+    background-color: rgba(0, 115, 255, 0.485);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.signup:hover {
+    cursor: pointer;
+    transition: 0.4s;
+    background-color: rgb(1, 102, 225);
+}
