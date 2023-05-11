@@ -93,6 +93,7 @@ i {
 }
 
 .text {
+    display: inline-block;
     color: rgb(0, 115, 255);
     font-size: 12px;
 }
@@ -105,6 +106,7 @@ i {
 .signup {
     width: 255px;
     height: 34px;
+    margin-top: 20px;
     color: rgba(255, 255, 255, 0.797);
     background-color: rgba(0, 115, 255, 0.485);
     outline: none;
